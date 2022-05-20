@@ -56,6 +56,17 @@ git commit -m "新增index.html"  //将文件提交至本地数据库，记得�
 git log //查看文件夹总共更新了几次
 ```
 
+**Git常用命令缩写设定**
+
+```
+git config --global alias.co checkout 
+git config --global alias.br branch 
+git config --global alias.st status
+git config --global alias.cm commit 
+```
+
+
+
 ## 1.5 SourceTree
 
 下载-注册
