@@ -62,10 +62,8 @@ git log //查看文件夹总共更新了几次
 git config --global alias.co checkout 
 git config --global alias.br branch 
 git config --global alias.st status
-git config --global alias.cm commit 
+git config --global alias.cmit commit 
 ```
-
-
 
 ## 1.5 SourceTree
 
@@ -89,3 +87,7 @@ git push -u origin main //提交本地repository中的文件至github
 在github上可以看到本repository信息，包括提交了几次，最近提交的是什么文档，都一目了然
 
 ![image-20220520141821549](/Users/qinjianquan/Library/Application Support/typora-user-images/image-20220520141821549.png)
+
+## 1.6 远程repository操作
+
+在实际操作中，我们可以创建两个repository，一个main repository，另一个test repository
