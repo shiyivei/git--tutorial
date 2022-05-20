@@ -60,6 +60,8 @@ git log //查看文件夹总共更新了几次
 
 下载-注册
 
+**提交至github**
+
 ```
 选择添加本地已经存在的repository //打开即可可视化查看所有文件的变更情况
 在github上创建repository，并且将文件源添加为本地repository
@@ -69,5 +71,10 @@ git log //查看文件夹总共更新了几次
 git remote add origin git@github.com:shiyivei/git-tutorial.git
 git branch -M main
 git push -u origin main //提交本地repository中的文件至github
+
+也可以直接通过SourceTree 的Push直接上传至github.com
 ```
 
+在github上可以看到本repository信息，包括提交了几次，最近提交的是什么文档，都一目了然
+
+![image-20220520141821549](/Users/qinjianquan/Library/Application Support/typora-user-images/image-20220520141821549.png)
